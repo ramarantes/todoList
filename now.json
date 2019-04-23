@@ -1,4 +1,6 @@
 {
-    "builds": [{ "src": "/src/index.js", "use": "@now/node" }],
+    "builds": [
+        { "src": "package.json", "use": "@now/static-build", "config": { "distDir": "build" } }
+    ],
     "alias": ["teste-rafael"]
   }
