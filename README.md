@@ -1,2 +1,4 @@
 # todoList
-TodoList intend to be a project
+
+Todo project
+concept to future project
