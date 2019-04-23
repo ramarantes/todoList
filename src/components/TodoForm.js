@@ -15,7 +15,7 @@ class TodoForm extends React.Component{
                 <div className="form-group">
                     <label htmlFor="todoText">Descrição</label>
                     <input type="text" id="todoText" className="form-control"/>
-                    <small id="help" className="form-text text-muted">Insira aqui sua próxima atividade</small>
+                    <small id="help" className="form-text text-muted">Insira aqui sua atividade</small>
                     <input type="submit" value="salvar" className="btn btn-primary"/>
                 </div>
             </form>
