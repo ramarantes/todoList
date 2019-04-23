@@ -3,5 +3,8 @@
       { "src": "*.html", "use": "@now/static" },
       { "src": "date.js", "use": "@now/node" }
     ],
-    "alias": ["teste-rafael"]
+    "alias": ["teste-rafael"],
+    "scripts": {
+        "now-build": "react-scripts build"
+    }
   }
